@@ -264,15 +264,6 @@
         "userAdded": false
       },
       {
-        "file": "Sons/00-intro/tweet.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\00-intro\\tweet.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/interface/isarus-curseur60-1.png",
         "kind": "image",
@@ -309,51 +300,6 @@
         "userAdded": false
       },
       {
-        "file": "Sons/03-5-Gerberoy/Bird_sound_1.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\Bird_sound_1.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/bird_sound_2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\bird_sound_2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/bird_sound_3.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\bird_sound_3.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/bird_sound_4.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\bird_sound_4.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/bird_sound_5.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\bird_sound_5.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/interface/carte-jeu-bouton.png",
         "kind": "image",
@@ -388,15 +334,6 @@
         "name": "Images\\03-5-gerberoy\\isarette500.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "Sons/00-intro/Isarus.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\00-intro\\Isarus.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -496,33 +433,6 @@
         "name": "Images\\03-5-gerberoy\\rouge205.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/plusieurs_oiseaux.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\plusieurs_oiseaux.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/porte.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\porte.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/pas_pavés.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\pas_pavés.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -714,15 +624,6 @@
         "userAdded": true
       },
       {
-        "file": "Sons/03-1-Pierrefonds/Ambiance_Foret.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-1-Pierrefonds\\Ambiance_Foret.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/03-2-senlis/senlis2-montage.png",
         "kind": "image",
@@ -732,39 +633,12 @@
         "userAdded": true
       },
       {
-        "file": "Sons/03-2-Senlis/Son_de_cloche.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\Son_de_cloche.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/tailleur_de_pierres.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\tailleur_de_pierres.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/04-5-Vez/tableau4-1.png",
         "kind": "image",
         "metadata": "",
         "name": "Images\\04-5-Vez\\tableau4-1.png",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-2-Beauvais/horloge.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-2-Beauvais\\horloge.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -900,96 +774,6 @@
         "metadata": "",
         "name": "Images\\pieges\\noyon2.jpg",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-4-Vendeuil/Campagne.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-4-Vendeuil\\Campagne.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-3-Francieres/ambiance_industrielle.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-3-Francieres\\ambiance_industrielle.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-3-Meru/ambiance_industrielle.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-3-Meru\\ambiance_industrielle.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sons/04-3-Meru/Clic_poulie.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-3-Meru\\Clic_poulie.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/chant_oiseaux_dissonant.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\chant_oiseaux_dissonant.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/oiseau_02.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\oiseau_02.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/oiseau_01.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\oiseau_01.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/oiseaui_05.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\oiseaui_05.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/oiseau_03.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\oiseau_03.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/oiseau_04.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\oiseau_04.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1200,24 +984,6 @@
         "userAdded": true
       },
       {
-        "file": "Sons/03-5-Gerberoy/Campagne.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\Campagne.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-5-Gerberoy/pas_pavés1.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-5-Gerberoy\\pas_pavés1.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/interface/bloctexte3.png",
         "kind": "image",
@@ -1233,42 +999,6 @@
         "metadata": "",
         "name": "Images\\03-1-pierrefonds\\lien_belle_bete.png",
         "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-1-Pierrefonds/musique_scene3_enigme.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-1-Pierrefonds\\musique_scene3_enigme.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sons/03-1-Pierrefonds/Feuillage_click_scene2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-1-Pierrefonds\\Feuillage_click_scene2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/ambiance_scene1.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\ambiance_scene1.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/moyen_age_musique_scene2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\moyen_age_musique_scene2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
         "userAdded": true
       },
       {
@@ -1310,33 +1040,6 @@
         }
       },
       {
-        "file": "Sons/03-1-Pierrefonds/ambiance_foret.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-1-Pierrefonds\\ambiance_foret.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-3-Francieres/champ_scene2_enigme.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-3-Francieres\\champ_scene2_enigme.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-4-champlieu/ambiance_foret_scene1 et 2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-4-champlieu\\ambiance_foret_scene1 et 2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/03-3-franciere/cadre.png",
         "kind": "image",
@@ -1353,15 +1056,6 @@
         "name": "Images\\04-1-chantilly\\chantilly1280.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "Sons/04-1-Chantilly/renaissance_scene1_et_enigme.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-1-Chantilly\\renaissance_scene1_et_enigme.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
       },
       {
         "file": "Sons/04-1-Chantilly/biblio_scene2.mp3",
@@ -1400,33 +1094,6 @@
         "userAdded": true
       },
       {
-        "file": "Sons/04-4-Vendeuil/campagne.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-4-Vendeuil\\campagne.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
-      },
-      {
-        "file": "Sons/04-4-Vendeuil/musique_enigme.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-4-Vendeuil\\musique_enigme.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/son_de_cloche.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\son_de_cloche.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/04-5-vez/grenier_vez.png",
         "kind": "image",
@@ -1443,51 +1110,6 @@
         "name": "Images\\04-5-vez\\lienvez.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "file": "Sons/03-2-Senlis/moyen_age_musique_scene2 v2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\moyen_age_musique_scene2 v2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/moyen_age_musique_scene2_v2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\moyen_age_musique_scene2_v2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-4-Vendeuil/musique_enigme_v2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-4-Vendeuil\\musique_enigme_v2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/ambiance_scene1_comp.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\ambiance_scene1_comp.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/03-2-Senlis/moyen_age_musique_scene2_v2_comp.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\03-2-Senlis\\moyen_age_musique_scene2_v2_comp.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -1526,15 +1148,6 @@
         "userAdded": true
       },
       {
-        "file": "Sons/03-3-Francieres/tracteur.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons/03-3-Francieres/tracteur.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/03-2-senlis/senlis_appl_1280.jpg",
         "kind": "image",
@@ -1569,51 +1182,6 @@
         "name": "Images\\04-3_meru\\meru2.jpg",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "file": "Sons/interface/musique_theme.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\interface\\musique_theme.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-5-Vez/ambiance_pigeon_scene2.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-5-Vez\\ambiance_pigeon_scene2.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-5-Vez/musique_enigme.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-5-Vez\\musique_enigme.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/04-5-Vez/ambiance_scene1_comp.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-5-Vez\\ambiance_scene1_comp.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
-        "file": "Sons/interface/musique_carte.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\interface\\musique_carte.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1670,15 +1238,6 @@
         "userAdded": true
       },
       {
-        "file": "Sons/04-1-Chantilly/renaissance_scene_1 pavane_white_for_fg.ogg",
-        "kind": "audio",
-        "metadata": "",
-        "name": "Sons\\04-1-Chantilly\\renaissance_scene_1 pavane_white_for_fg.ogg",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "Images/02-1-carte/stjust.png",
         "kind": "image",
@@ -1722,24 +1281,6 @@
         "name": "Images\\02-1-carte\\compiegne.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Downloads/mots_croises_40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Downloads\\mots_croises_40.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/04-1-chantilly/mots_croises_40.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\04-1-chantilly\\mots_croises_40.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2046,24 +1587,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/interface/gitHub.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\interface\\gitHub.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/interface/fusil.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\interface\\fusil.jpg",
-        "smoothed": true,
-        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -31227,42 +30750,10 @@
           "locked": false,
           "name": "TexteFin",
           "persistentUuid": "811f495a-ed7e-4fd6-bc1b-2788ed24e994",
-          "width": 991,
+          "width": 787,
           "x": 282,
           "y": 133,
           "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GitHub",
-          "persistentUuid": "e1eaaeff-4f0a-43c2-ac3d-a16988e5a4d4",
-          "width": 0,
-          "x": 22,
-          "y": 148,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "fusil",
-          "persistentUuid": "29b7a109-1d72-4d29-a2e5-ff1953913b3d",
-          "width": 0,
-          "x": 452,
-          "y": 518,
-          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31320,7 +30811,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Ceci est la fin du jeu, vous avez réussi à libérer Isarus, Bravo !\n\nMerci de votre participation.\nAu revoir et à bientôt !",
+          "string": "\nA compléter ou à finir\n\n\n",
           "font": "",
           "characterSize": 60,
           "color": {
@@ -31328,86 +30819,6 @@
             "g": 231,
             "r": 248
           }
-        },
-        {
-          "name": "GitHub",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images\\interface\\gitHub.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "fusil",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images\\interface\\fusil.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
