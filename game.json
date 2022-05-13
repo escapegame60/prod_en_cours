@@ -2055,6 +2055,15 @@
         "name": "Images\\interface\\gitHub.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/interface/fusil.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\interface\\fusil.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -31213,14 +31222,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 538,
+          "height": 342,
           "layer": "",
           "locked": false,
           "name": "TexteFin",
           "persistentUuid": "811f495a-ed7e-4fd6-bc1b-2788ed24e994",
           "width": 991,
-          "x": 271,
-          "y": 170,
+          "x": 282,
+          "y": 133,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -31235,9 +31244,25 @@
           "name": "GitHub",
           "persistentUuid": "e1eaaeff-4f0a-43c2-ac3d-a16988e5a4d4",
           "width": 0,
-          "x": 18,
-          "y": 226,
+          "x": 22,
+          "y": 148,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fusil",
+          "persistentUuid": "29b7a109-1d72-4d29-a2e5-ff1953913b3d",
+          "width": 0,
+          "x": 452,
+          "y": 518,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31295,9 +31320,9 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Ceci est la fin du jeu, vous avez réussi à libérer Isarus, Bravo !\n\nMerci de votre participation.\nAu revoir",
+          "string": "Ceci est la fin du jeu, vous avez réussi à libérer Isarus, Bravo !\n\nMerci de votre participation.\nAu revoir et à bientôt !",
           "font": "",
-          "characterSize": 80,
+          "characterSize": 60,
           "color": {
             "b": 28,
             "g": 231,
@@ -31324,6 +31349,46 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Images\\interface\\gitHub.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fusil",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\interface\\fusil.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
