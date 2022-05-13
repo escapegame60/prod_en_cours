@@ -2046,6 +2046,15 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/interface/gitHub.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\interface\\gitHub.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -31200,6 +31209,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 538,
+          "layer": "",
+          "locked": false,
+          "name": "TexteFin",
+          "persistentUuid": "811f495a-ed7e-4fd6-bc1b-2788ed24e994",
+          "width": 991,
+          "x": 271,
+          "y": 170,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "GitHub",
+          "persistentUuid": "e1eaaeff-4f0a-43c2-ac3d-a16988e5a4d4",
+          "width": 0,
+          "x": 18,
+          "y": 226,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -31223,6 +31264,66 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "Images\\05-sacy\\sacy1.JPG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "TexteFin",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Ceci est la fin du jeu, vous avez réussi à libérer Isarus, Bravo !\n\nMerci de votre participation.\nAu revoir",
+          "font": "",
+          "characterSize": 80,
+          "color": {
+            "b": 28,
+            "g": 231,
+            "r": 248
+          }
+        },
+        {
+          "name": "GitHub",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\interface\\gitHub.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -31291,6 +31392,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "CaseMotCroiseBehavior",
+          "type": "CaseMotCroiseBehavior::CaseMotCroiseBehavior"
+        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
