@@ -30801,7 +30801,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5199999999999996,
+        "zoomFactor": 0.5399999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36901,6 +36901,105 @@
           "ambientLightColorB": 7424536,
           "ambientLightColorG": 150995054,
           "ambientLightColorR": 1869182049,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "CaseMotCroiseBehavior",
+          "type": "CaseMotCroiseBehavior::CaseMotCroiseBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Sc_232ne_32test_32_224_32supprimer",
+      "name": "Scène test à supprimer",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 1,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "boutoncarte",
+          "persistentUuid": "9bdcdaac-621a-4f62-8080-71cde997c1c5",
+          "width": 0,
+          "x": 562,
+          "y": 379,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "isarette",
+          "persistentUuid": "cb14b794-eeb7-497f-84cc-6b1364a083d5",
+          "width": 0,
+          "x": 651,
+          "y": 342,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [],
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 7447552,
+          "ambientLightColorG": 13405912,
+          "ambientLightColorR": 565696,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
