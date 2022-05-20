@@ -1605,6 +1605,114 @@
         "name": "Images\\05-sacy\\Clef140.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/Gif animé1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\Gif animé1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/Gif animé2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\Gif animé2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/Gif_anime1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\Gif_anime1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/Gif_anime2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\Gif_anime2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_fond.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_fond.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_1.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_1.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_3.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/Clef140_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\Clef140_2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -12073,7 +12181,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"123\""
+                "\"488\""
               ],
               "subInstructions": []
             }
@@ -12478,7 +12586,7 @@
                 "",
                 "Sons\\04-1-Chantilly\\renaissance_scene_1 pavane_white_for_fg.mp3",
                 "yes",
-                "",
+                "70",
                 ""
               ],
               "subInstructions": []
@@ -14960,7 +15068,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"456\""
+                "\"1600\""
               ],
               "subInstructions": []
             }
@@ -16967,7 +17075,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"123\""
+                "\"971\""
               ],
               "subInstructions": []
             }
@@ -18426,7 +18534,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"456\""
+                "\"689\""
               ],
               "subInstructions": []
             }
@@ -20450,7 +20558,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"123\""
+                "\"156\""
               ],
               "subInstructions": []
             }
@@ -21928,7 +22036,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"456\""
+                "\"2571\""
               ],
               "subInstructions": []
             }
@@ -23966,7 +24074,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"123\""
+                "\"720\""
               ],
               "subInstructions": []
             }
@@ -25355,7 +25463,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"456\""
+                "\"9644\""
               ],
               "subInstructions": []
             }
@@ -27974,7 +28082,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"123\""
+                "\"523\""
               ],
               "subInstructions": []
             }
@@ -30419,7 +30527,7 @@
               "parameters": [
                 "saisiecode",
                 "=",
-                "\"456\""
+                "\"9003\""
               ],
               "subInstructions": []
             }
@@ -31033,39 +31141,6 @@
           "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "zoneclicable",
-                    "nom",
-                    "=",
-                    "\"zone10\""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"5-MaraisSacyGagné\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
               "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -31158,14 +31233,41 @@
                 }
               ],
               "events": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjetTxt"
+                  },
+                  "parameters": [
+                    "zoneclicable",
+                    "nom",
+                    "=",
+                    "\"zone10\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"5-MaraisSacyGagné\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -31324,16 +31426,16 @@
           "initialVariables": []
         },
         {
-          "angle": 279.59344482421875,
-          "customSize": false,
-          "height": 0,
+          "angle": 0,
+          "customSize": true,
+          "height": 227,
           "layer": "",
           "locked": false,
-          "name": "clesacy",
-          "persistentUuid": "ac57b142-1dc5-4e1f-886b-ecd3cf54d67f",
-          "width": 0,
-          "x": 420.0752868652344,
-          "y": 397.35382080078125,
+          "name": "TexteFinperdu",
+          "persistentUuid": "55c371b2-010c-4a0d-ae22-c4d730338964",
+          "width": 874,
+          "x": 21,
+          "y": 128,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -31384,7 +31486,7 @@
         {
           "bold": false,
           "italic": false,
-          "name": "TexteFin",
+          "name": "TexteFinperdu",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -31392,59 +31494,14 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "\nBonjour c'est Noyon\n\n\n",
-          "font": "",
-          "characterSize": 60,
+          "string": "Mince je suis arrivée trop tard, Isarus ne va pas pouvoir partir avec moi...\n\nA moi la belle vie tranquille toute seule !\n\n\n",
+          "font": "polices\\Fredoka-Medium.ttf",
+          "characterSize": 40,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
-        },
-        {
-          "name": "clesacy",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Images\\05-sacy\\Clef140.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 68,
-                        "y": 54.5
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "events": [
@@ -31533,7 +31590,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5399999999999996,
+        "zoomFactor": 0.6199999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31620,17 +31677,17 @@
           "initialVariables": []
         },
         {
-          "angle": 279.59344482421875,
+          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "clesacy",
-          "persistentUuid": "ac57b142-1dc5-4e1f-886b-ecd3cf54d67f",
+          "name": "clef2",
+          "persistentUuid": "f0854787-4b8b-430c-b7b3-d5bc81b2ede3",
           "width": 0,
-          "x": 420.0752868652344,
-          "y": 397.35382080078125,
-          "zOrder": 6,
+          "x": 470,
+          "y": 400,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31698,7 +31755,7 @@
           }
         },
         {
-          "name": "clesacy",
+          "name": "clef2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -31721,12 +31778,12 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Images\\05-sacy\\Clef140.png",
+                      "image": "Images\\05-sacy\\Clef140_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 68,
-                        "y": 54.5
+                        "x": 53,
+                        "y": 71.5
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -31782,23 +31839,23 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Opacity"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "clesacy",
-                "=",
-                "0"
+                "",
+                "\"chronosacycle\""
               ],
               "subInstructions": []
             },
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
+                "value": "Opacity"
               },
               "parameters": [
-                "",
-                "\"chronosacycle\""
+                "clef2",
+                "=",
+                "0"
               ],
               "subInstructions": []
             }
@@ -31823,7 +31880,7 @@
                 "",
                 "\"chronosacycle\"",
                 ">",
-                "1"
+                "0.5"
               ],
               "subInstructions": []
             },
@@ -31840,22 +31897,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "clesacy",
-                "Tween",
-                "\"opac\"",
-                "255",
-                "\"linear\"",
-                "1000",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "PlaySound"
               },
               "parameters": [
@@ -31863,6 +31904,22 @@
                 "Sons\\interface\\gagne03.mp3",
                 "",
                 "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "clef2",
+                "Tween",
+                "\"opac\"",
+                "255",
+                "\"linear\"",
+                "250",
                 ""
               ],
               "subInstructions": []
@@ -31894,12 +31951,45 @@
                 "value": "Tween::AddObjectPositionXTween"
               },
               "parameters": [
-                "clesacy",
+                "clef2",
                 "Tween",
                 "\"glisse\"",
                 "1090",
                 "\"linear\"",
                 "1000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"chronosacycle\"",
+                ">",
+                "6"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"5-Envol\"",
                 ""
               ],
               "subInstructions": []
@@ -31913,6 +32003,441 @@
           "ambientLightColorB": 0,
           "ambientLightColorG": 16777216,
           "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "CaseMotCroiseBehavior",
+          "type": "CaseMotCroiseBehavior::CaseMotCroiseBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_53_45Envol",
+      "name": "5-Envol",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6399999999999997,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "boutoncarte",
+          "persistentUuid": "29211baf-6fbd-4c87-9e91-94e79c9da46d",
+          "width": 0,
+          "x": 23,
+          "y": 634,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fondenvol",
+          "persistentUuid": "b1f8a157-f69a-4a0e-bd58-15e5ddf56b5c",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "oiseauxenvol",
+          "persistentUuid": "39b15246-ad5b-4ce4-8521-a8a515ed1d4c",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "",
+          "locked": false,
+          "name": "generique",
+          "persistentUuid": "334670e8-dcbd-4bf1-a92c-60e9fabc75cf",
+          "width": 453,
+          "x": 431,
+          "y": 732,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "fondenvol",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_fond.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "oiseauxenvol",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.10000000149011612,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "generique",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "EscapOise \nLa Libération d'Isarus\n\nMerci d'avoir participé.\n\nRéalisation : Groupe ERUN de l'Oise\n\nCasting\nIsarus     Isarus\nIsarette     Isarette\n...",
+            "opacity": 255,
+            "fontSize": 45,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Curseur"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Horloge"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sons\\00-intro\\Isarus.mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"envolfeu\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"envolfeu\"",
+                ">",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sons\\interface\\feu_artifice.mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"envolfeu\"",
+                ">",
+                "8"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sons\\interface\\feu_artifice.mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionYTween"
+              },
+              "parameters": [
+                "generique",
+                "Tween",
+                "\"gen\"",
+                "-1500",
+                "\"linear\"",
+                "20000",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 1,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597132097,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "",
@@ -31990,7 +32515,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -32628,7 +33153,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -33266,7 +33791,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -33904,7 +34429,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 48,
           "layer": "",
           "locked": false,
@@ -34542,7 +35067,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 48,
           "layer": "",
           "locked": false,
