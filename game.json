@@ -1713,6 +1713,15 @@
         "name": "Images\\05-sacy\\Clef140_2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Sons/interface/feu1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sons\\interface\\feu1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -32293,9 +32302,28 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
             }
           ],
           "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"envolfeu\""
+              ],
+              "subInstructions": []
+            },
             {
               "type": {
                 "inverted": false,
@@ -32313,11 +32341,14 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ResetTimer"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"envolfeu\""
+                "Sons\\interface\\feu1.mp3",
+                "yes",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -32326,45 +32357,8 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"envolfeu\"",
-                ">",
-                "4"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Sons\\interface\\feu_artifice.mp3",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
+          "conditions": [],
+          "actions": [],
           "events": []
         },
         {
@@ -32393,20 +32387,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Sons\\interface\\feu_artifice.mp3",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
