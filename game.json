@@ -1749,6 +1749,24 @@
         "name": "Images\\05-sacy\\logodsden_60_acamiens400.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/envol_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\envol_5.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -31749,7 +31767,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Mince je suis arrivée trop tard, Isarus ne va pas pouvoir partir avec moi...\n\nA moi la belle vie tranquille toute seule !\n\n\n",
+          "string": "Pas de chance, vous n’êtes pas parvenus à aider Isarette à temps pour qu’elle libère Isarus.\n\n",
           "font": "polices\\Fredoka-Medium.ttf",
           "characterSize": 40,
           "color": {
@@ -31782,8 +31800,64 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"chronofinperdu\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"chronofinperdu\"",
+                ">",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"5-EnvolPerdu\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         }
       ],
@@ -31955,9 +32029,9 @@
           "locked": false,
           "name": "TexteFin",
           "persistentUuid": "800a712c-1f6f-4ee3-893e-a61373cca9ba",
-          "width": 790,
-          "x": 35,
-          "y": 89,
+          "width": 801,
+          "x": 16,
+          "y": 69,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -32016,7 +32090,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Bravo !\nVous avez réussi votre mission !\nIsarette a pu libérer Isarus et ils vont pouvoir s’envoler vers les pays chauds.\n\n\n",
+          "string": "Bravo !\nVous avez réussi votre mission !\n\nIsarette a pu libérer Isarus et ils vont pouvoir s’envoler vers les pays chauds.\n\n\n",
           "font": "polices\\Fredoka-Medium.ttf",
           "characterSize": 40,
           "color": {
@@ -32151,7 +32225,7 @@
                 "",
                 "\"chronosacycle\"",
                 ">",
-                "0.5"
+                "1.5"
               ],
               "subInstructions": []
             },
@@ -32210,7 +32284,7 @@
                 "",
                 "\"chronosacycle\"",
                 ">",
-                "2"
+                "3"
               ],
               "subInstructions": []
             }
@@ -32247,7 +32321,7 @@
                 "",
                 "\"chronosacycle\"",
                 ">",
-                "6"
+                "8"
               ],
               "subInstructions": []
             }
@@ -32327,7 +32401,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37999999999999956,
+        "zoomFactor": 0.35999999999999954,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32542,7 +32616,7 @@
             }
           ],
           "content": {
-            "text": "EscapOise \nLa Libération d'Isarus\n\n\nMerci d'avoir participé.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nIsarus     Isarus\nIsarette     Isarette\n\n\nRemerciements : \nDSIN Amiens\nDANEI Oise\n\n",
+            "text": "EscapOise \nLa Libération d'Isarus\n\n\nMerci d'avoir participé et encore BRAVO.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nIsarus     Isarus\nIsarette     Isarette\n\n\nRemerciements : \nDSIN Amiens\n\n",
             "opacity": 255,
             "fontSize": 45,
             "visible": true,
@@ -32692,6 +32766,439 @@
                 "\"envolfeu\"",
                 ">",
                 "8"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetCameraY"
+              },
+              "parameters": [
+                "",
+                "+",
+                "1",
+                "\"Générique\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 1,
+          "ambientLightColorG": 134217728,
+          "ambientLightColorR": 1597132097,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12599672,
+          "ambientLightColorG": 6037952,
+          "ambientLightColorR": 14426208,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Générique",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "CaseMotCroiseBehavior",
+          "type": "CaseMotCroiseBehavior::CaseMotCroiseBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_53_45EnvolPerdu",
+      "name": "5-EnvolPerdu",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6199999999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "boutoncarte",
+          "persistentUuid": "29211baf-6fbd-4c87-9e91-94e79c9da46d",
+          "width": 0,
+          "x": 23,
+          "y": 634,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "fondenvol",
+          "persistentUuid": "b1f8a157-f69a-4a0e-bd58-15e5ddf56b5c",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "isaretteenvol",
+          "persistentUuid": "39b15246-ad5b-4ce4-8521-a8a515ed1d4c",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 80,
+          "layer": "Générique",
+          "locked": false,
+          "name": "generique",
+          "persistentUuid": "334670e8-dcbd-4bf1-a92c-60e9fabc75cf",
+          "width": 453,
+          "x": 431,
+          "y": 732,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Générique",
+          "locked": false,
+          "name": "logo",
+          "persistentUuid": "015cfc6e-51f6-465d-8296-2088b14f1210",
+          "width": 0,
+          "x": 462,
+          "y": 1956,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "fondenvol",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_fond.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "isaretteenvol",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.20000000298023224,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\envol_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "generique",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "EscapOise \nLa Libération d'Isarus\n\n\nMerci d'avoir participé.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nIsarus     Isarus\nIsarette     Isarette\n\n\nRemerciements : \nDSIN Amiens\n\n",
+            "opacity": 255,
+            "fontSize": 45,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "name": "logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\logodsden_60_acamiens400.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Curseur"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Horloge"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"envolfeu\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sons\\00-intro\\Isarus.mp3",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"envolfeu\"",
+                ">",
+                "5"
               ],
               "subInstructions": []
             }
