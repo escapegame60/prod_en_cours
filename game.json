@@ -1722,6 +1722,15 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/02-1-carte/crepy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\02-1-carte\\crepy.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4504,7 +4513,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8765138231277461,
+        "zoomFactor": 0.6765138231277459,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4927,8 +4936,8 @@
           "name": "zoneclicable",
           "persistentUuid": "172e5558-52b7-4c67-a2dc-d7d119c9745e",
           "width": 0,
-          "x": 1065,
-          "y": 544,
+          "x": 1061,
+          "y": 534,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -5334,6 +5343,22 @@
           "x": 1027,
           "y": 280,
           "zOrder": 68,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "sprite_crepy",
+          "persistentUuid": "cbe1d0c9-4349-4525-b852-0fba0f4e5a5f",
+          "width": 0,
+          "x": 1056,
+          "y": 530,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6157,6 +6182,51 @@
               ]
             }
           ]
+        },
+        {
+          "name": "sprite_crepy",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\02-1-carte\\crepy.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 147,
+                        "y": 31.5
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 147,
+                        "y": 31.5
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6376,6 +6446,16 @@
               },
               "parameters": [
                 "sprite_compiegne"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "sprite_crepy"
               ],
               "subInstructions": []
             }
@@ -6701,6 +6781,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -10211,6 +10292,153 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "zoneclicable",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "zoneclicable",
+                "nom",
+                "=",
+                "\"zoneCrepy\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "sprite_crepy",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionYTween"
+              },
+              "parameters": [
+                "sprite_crepy",
+                "Tween",
+                "\"GoUp\"",
+                "531",
+                "\"linear\"",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "sprite_crepy",
+                "Tween",
+                "\"ZoomOut\"",
+                "1",
+                "1",
+                "\"linear\"",
+                "250",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "zoneclicable",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "zoneclicable",
+                "nom",
+                "=",
+                "\"zoneCrepy\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectPositionYTween"
+              },
+              "parameters": [
+                "sprite_crepy",
+                "Tween",
+                "\"GoDown\"",
+                "531",
+                "\"linear\"",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "sprite_crepy",
+                "Tween",
+                "\"ZoomIn\"",
+                "0",
+                "0",
+                "\"linear\"",
+                "250",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
           "events": []
@@ -12595,7 +12823,7 @@
                 "",
                 "Sons\\04-1-Chantilly\\renaissance_scene_1 pavane_white_for_fg.mp3",
                 "yes",
-                "70",
+                "50",
                 ""
               ],
               "subInstructions": []
@@ -32123,7 +32351,7 @@
           "angle": 0,
           "customSize": true,
           "height": 80,
-          "layer": "",
+          "layer": "Générique",
           "locked": false,
           "name": "generique",
           "persistentUuid": "334670e8-dcbd-4bf1-a92c-60e9fabc75cf",
@@ -32376,29 +32604,19 @@
                 "8"
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Tween::AddObjectPositionYTween"
+                "value": "SetCameraY"
               },
               "parameters": [
-                "generique",
-                "Tween",
-                "\"gen\"",
-                "-1500",
-                "\"linear\"",
-                "20000",
+                "",
+                "+",
+                "2",
+                "\"Générique\"",
                 ""
               ],
               "subInstructions": []
@@ -32407,6 +32625,7 @@
           "events": []
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [],
@@ -32434,6 +32653,17 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12599672,
+          "ambientLightColorG": 6037952,
+          "ambientLightColorR": 14426208,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Générique",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -38062,7 +38292,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1,
+        "zoomFactor": 0.6399999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39210,6 +39440,39 @@
                 "comptearebours",
                 "=",
                 "TimeFormatter::SecondsToHHMMSS(GlobalVariable(gbl_diffTime))"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "gbl_diffTime",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"5-MaraisSacyPerdu\"",
+                ""
               ],
               "subInstructions": []
             }
