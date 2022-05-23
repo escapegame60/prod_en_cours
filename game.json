@@ -1731,6 +1731,24 @@
         "name": "Images\\02-1-carte\\crepy.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/04-5-vez/tableau4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\04-5-vez\\tableau4-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Images/05-sacy/logodsden_60_acamiens400.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Images\\05-sacy\\logodsden_60_acamiens400.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -29629,7 +29647,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6599999999999997,
+        "zoomFactor": 0.6599999999999996,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29884,8 +29902,8 @@
           "name": "peintre4",
           "persistentUuid": "8458ad37-a231-44ef-a89a-9457ae0d037f",
           "width": 0,
-          "x": 687,
-          "y": 470,
+          "x": 716,
+          "y": 472,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -30318,7 +30336,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Images\\04-5-Vez\\tableau4-1.png",
+                      "image": "Images\\04-5-vez\\tableau4-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30386,7 +30404,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "4. Thomas Couture\n",
+          "string": "4. Paul Huet\n",
           "font": "polices\\Fredoka-Medium.ttf",
           "characterSize": 18,
           "color": {
@@ -31827,7 +31845,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6199999999999997,
+        "zoomFactor": 0.6399999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31928,6 +31946,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 294,
+          "layer": "",
+          "locked": false,
+          "name": "TexteFin",
+          "persistentUuid": "800a712c-1f6f-4ee3-893e-a61373cca9ba",
+          "width": 790,
+          "x": 35,
+          "y": 89,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -31982,13 +32016,13 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "\nBonjour c'est Noyon\n\n\n",
-          "font": "",
-          "characterSize": 60,
+          "string": "Bravo !\nVous avez réussi votre mission !\nIsarette a pu libérer Isarus et ils vont pouvoir s’envoler vers les pays chauds.\n\n\n",
+          "font": "polices\\Fredoka-Medium.ttf",
+          "characterSize": 40,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -32293,7 +32327,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6399999999999997,
+        "zoomFactor": 0.37999999999999956,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32359,6 +32393,22 @@
           "x": 431,
           "y": 732,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Générique",
+          "locked": false,
+          "name": "logo",
+          "persistentUuid": "015cfc6e-51f6-465d-8296-2088b14f1210",
+          "width": 0,
+          "x": 462,
+          "y": 1956,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32492,7 +32542,7 @@
             }
           ],
           "content": {
-            "text": "EscapOise \nLa Libération d'Isarus\n\nMerci d'avoir participé.\n\nRéalisation : Groupe ERUN de l'Oise\n\nCasting\nIsarus     Isarus\nIsarette     Isarette\n...",
+            "text": "EscapOise \nLa Libération d'Isarus\n\n\nMerci d'avoir participé.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nIsarus     Isarus\nIsarette     Isarette\n\n\nRemerciements : \nDSIN Amiens\nDANEI Oise\n\n",
             "opacity": 255,
             "fontSize": 45,
             "visible": true,
@@ -32501,6 +32551,46 @@
             "align": "center",
             "wordWrap": true
           }
+        },
+        {
+          "name": "logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Images\\05-sacy\\logodsden_60_acamiens400.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -32615,7 +32705,7 @@
               "parameters": [
                 "",
                 "+",
-                "2",
+                "1",
                 "\"Générique\"",
                 ""
               ],
