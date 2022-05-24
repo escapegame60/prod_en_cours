@@ -4357,7 +4357,7 @@
               "parameters": [
                 "txt_countDownto5",
                 "=",
-                "ToString(round(abs(TimerElapsedTime(\"countDownTo5\"))))"
+                "ToString(round(abs(TimerElapsedTime(\"countDownTo5\")-3)))"
               ],
               "subInstructions": []
             }
