@@ -634,15 +634,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Images/04-5-Vez/tableau4-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\04-5-Vez\\tableau4-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Images/03-4-champlieu/Champlieu1280.png",
         "kind": "image",
         "metadata": "",
@@ -1599,82 +1590,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Images/05-sacy/Clef140.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\Clef140.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/Gif animé1.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\Gif animé1.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/Gif animé2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\Gif animé2.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/Gif_anime1.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\Gif_anime1.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/Gif_anime2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\Gif_anime2.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Images/05-sacy/envol_fond.png",
         "kind": "image",
         "metadata": "",
         "name": "Images\\05-sacy\\envol_fond.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/envol_1.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\envol_1.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/envol_2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\envol_2.jpg",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Images/05-sacy/envol_3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Images\\05-sacy\\envol_3.jpg",
         "smoothed": true,
         "userAdded": true
       },
@@ -22872,12 +22791,6 @@
               "events": []
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": []
         }
       ],
       "layers": [
@@ -23029,7 +22942,7 @@
           "persistentUuid": "d663740b-bf06-4857-8b29-45374400236f",
           "width": 0,
           "x": 383,
-          "y": 197,
+          "y": 87,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -30918,7 +30831,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5399999999999996,
+        "zoomFactor": 0.6199999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31222,8 +31135,8 @@
           "name": "isarette",
           "persistentUuid": "b171a61b-b717-496b-96a9-680a98b1279a",
           "width": 0,
-          "x": 1004,
-          "y": 101,
+          "x": 585,
+          "y": 305,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -31298,6 +31211,22 @@
               "value": "zone10"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 164,
+          "layer": "",
+          "locked": false,
+          "name": "TexteFin",
+          "persistentUuid": "0d01a536-a358-41b6-a052-a9c7ffec6e26",
+          "width": 997,
+          "x": 263,
+          "y": -30,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -31352,13 +31281,13 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "\nBonjour c'est Noyon\n\n\n",
-          "font": "",
-          "characterSize": 60,
+          "string": "\nBravo tu as pu reconstituer la clé entièrement.\nTrouve la cage d'Isarus dans le marais pour le libérer.\n",
+          "font": "polices\\Fredoka-Medium.ttf",
+          "characterSize": 40,
           "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         }
       ],
@@ -31413,100 +31342,6 @@
           ],
           "actions": [],
           "events": [
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "zoneclicable",
-                    "nom",
-                    "=",
-                    "\"zone10\""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "gbl_enigmes.enigme02",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "gbl_enigmes.enigme04",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "gbl_enigmes.enigme06",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "gbl_enigmes.enigme08",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarGlobal"
-                  },
-                  "parameters": [
-                    "gbl_enigmes.enigme10",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"5-MaraisSacyGagné\"",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -31646,22 +31481,6 @@
           "x": 1004,
           "y": 101,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "boutoncarte",
-          "persistentUuid": "0d2a652f-85ed-4ec1-9993-cf09ed295b00",
-          "width": 0,
-          "x": 8,
-          "y": 640,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31859,6 +31678,12 @@
             }
           ],
           "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -31953,22 +31778,6 @@
           "x": 1004,
           "y": 101,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "boutoncarte",
-          "persistentUuid": "0d2a652f-85ed-4ec1-9993-cf09ed295b00",
-          "width": 0,
-          "x": 8,
-          "y": 640,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32401,28 +32210,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.35999999999999954,
+        "zoomFactor": 0.5999999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "boutoncarte",
-          "persistentUuid": "29211baf-6fbd-4c87-9e91-94e79c9da46d",
-          "width": 0,
-          "x": 23,
-          "y": 634,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -32765,7 +32558,7 @@
                 "",
                 "\"envolfeu\"",
                 ">",
-                "8"
+                "5"
               ],
               "subInstructions": []
             }
@@ -32865,28 +32658,12 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6199999999999998,
+        "zoomFactor": 0.5999999999999998,
         "windowMask": false
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "boutoncarte",
-          "persistentUuid": "29211baf-6fbd-4c87-9e91-94e79c9da46d",
-          "width": 0,
-          "x": 23,
-          "y": 634,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -38865,105 +38642,6 @@
           "type": "Tween::TweenBehavior"
         }
       ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Sc_232ne_32test_32_224_32supprimer",
-      "name": "Scène test à supprimer",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6399999999999997,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "boutoncarte",
-          "persistentUuid": "9bdcdaac-621a-4f62-8080-71cde997c1c5",
-          "width": 0,
-          "x": 562,
-          "y": 379,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "isarette",
-          "persistentUuid": "cb14b794-eeb7-497f-84cc-6b1364a083d5",
-          "width": 0,
-          "x": 651,
-          "y": 342,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [],
-      "events": [],
-      "layers": [
-        {
-          "ambientLightColorB": 7447552,
-          "ambientLightColorG": 13405912,
-          "ambientLightColorR": 565696,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "CaseMotCroiseBehavior",
-          "type": "CaseMotCroiseBehavior::CaseMotCroiseBehavior"
-        },
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
     }
   ],
   "externalEvents": [
@@ -40044,7 +39722,6 @@
           "events": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
