@@ -31488,38 +31488,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 54,
-          "layer": "",
-          "locked": false,
-          "name": "blocCompteur",
-          "persistentUuid": "08f94646-c957-4d37-a759-6e2ecef39b9c",
-          "width": 225,
-          "x": 10,
-          "y": 10,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "comptearebours",
-          "persistentUuid": "413bf3cf-1bfc-4122-8495-3104eed99b91",
-          "width": 0,
-          "x": 17,
-          "y": 13,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 227,
           "layer": "",
           "locked": false,
@@ -31609,13 +31577,6 @@
             "includeConfig": 0
           },
           "target": "Curseur"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Horloge"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -31784,38 +31745,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 54,
-          "layer": "",
-          "locked": false,
-          "name": "blocCompteur",
-          "persistentUuid": "08f94646-c957-4d37-a759-6e2ecef39b9c",
-          "width": 225,
-          "x": 10,
-          "y": 10,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "comptearebours",
-          "persistentUuid": "413bf3cf-1bfc-4122-8495-3104eed99b91",
-          "width": 0,
-          "x": 17,
-          "y": 13,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -31967,13 +31896,6 @@
             "includeConfig": 0
           },
           "target": "Curseur"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Horloge"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -32210,7 +32132,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5999999999999998,
+        "zoomFactor": 0.5399999999999997,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -32467,13 +32389,6 @@
             "includeConfig": 0
           },
           "target": "Curseur"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Horloge"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -32898,13 +32813,6 @@
             "includeConfig": 0
           },
           "target": "Curseur"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Horloge"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -39617,7 +39525,7 @@
               "parameters": [
                 "gbl_diffTime",
                 "=",
-                "7200-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
+                "60-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
               ],
               "subInstructions": []
             },
@@ -39702,7 +39610,7 @@
               "parameters": [
                 "gbl_diffTime",
                 "=",
-                "7200-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
+                "60-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
               ],
               "subInstructions": []
             },
@@ -39731,7 +39639,7 @@
               },
               "parameters": [
                 "gbl_diffTime",
-                "=",
+                "<=",
                 "0"
               ],
               "subInstructions": []
@@ -39754,6 +39662,12 @@
           "events": []
         }
       ]
+    },
+    {
+      "associatedLayout": "",
+      "lastChangeTimeStamp": 0,
+      "name": "Événements externes sans titre",
+      "events": []
     }
   ],
   "eventsFunctionsExtensions": [
