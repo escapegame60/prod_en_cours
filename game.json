@@ -29107,7 +29107,7 @@
           "persistentUuid": "ac440c2d-533b-43af-8df6-f0fe19fc9713",
           "width": 698,
           "x": 688,
-          "y": 325.5,
+          "y": 326.5,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -29964,7 +29964,7 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 45,
           "layer": "",
           "locked": false,
@@ -29972,7 +29972,7 @@
           "persistentUuid": "1c60a62b-ebf3-412a-927b-765881dfe7d6",
           "width": 25,
           "x": 1019,
-          "y": 92,
+          "y": 95,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -30061,30 +30061,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 41,
-          "layer": "",
-          "locked": false,
-          "name": "liengreniervez",
-          "persistentUuid": "c0192b34-52d3-4825-93b4-41456fea16e3",
-          "width": 615,
-          "x": 378,
-          "y": 21,
-          "zOrder": 30,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 32,
+          "height": 29,
           "layer": "Calque Zone Clicable",
           "locked": false,
           "name": "zoneclicable",
           "persistentUuid": "36127620-5172-4b1f-b87d-cb643d1b40ba",
-          "width": 619,
-          "x": 681.5,
-          "y": 41,
+          "width": 581,
+          "x": 688.5,
+          "y": 44.5,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -30095,6 +30079,22 @@
               "value": "zone1"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "lienvezenigme",
+          "persistentUuid": "7cf397f2-6451-4b32-b9ed-596d8d2519f3",
+          "width": 0,
+          "x": 397,
+          "y": 35,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -30495,7 +30495,7 @@
           }
         },
         {
-          "name": "liengreniervez",
+          "name": "lienvezenigme",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -30513,7 +30513,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Images\\04-5-Vez\\lienVez.png",
+                      "image": "Images\\04-5-vez\\lienvez.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30601,7 +30601,7 @@
               "parameters": [
                 "",
                 "Sons\\04-5-Vez\\musique_enigme.mp3",
-                "",
+                "yes",
                 "30",
                 ""
               ],
