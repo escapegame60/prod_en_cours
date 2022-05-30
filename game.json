@@ -2504,6 +2504,12 @@
       "value": 0
     },
     {
+      "folded": true,
+      "name": "gbl_endTime",
+      "type": "number",
+      "value": 0
+    },
+    {
       "name": "gbl_enigmes",
       "type": "structure",
       "children": [
@@ -2845,6 +2851,12 @@
         },
         {
           "name": "enigmes",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "endTime",
           "type": "string",
           "value": ""
         }
@@ -3363,6 +3375,21 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
+                "\"https://escapoise.dsden60.ac-amiens.fr/getEndTime.php\"",
+                "",
+                "\"POST\"",
+                "",
+                "endTime",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
                 "\"https://escapoise.dsden60.ac-amiens.fr/getEnigmes.php\"",
                 "",
                 "\"POST\"",
@@ -3575,6 +3602,18 @@
                 "gbl_startTime",
                 "=",
                 "ToNumber(VariableString(startTime))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gbl_endTime",
+                "=",
+                "ToNumber(VariableString(endTime))"
               ],
               "subInstructions": []
             },
@@ -4202,12 +4241,65 @@
             {
               "type": {
                 "inverted": false,
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(gbl_startTime)",
+                    "!=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "GlobalVariable(gbl_endTime)",
+                    "!=",
+                    "10000"
+                  ],
+                  "subInstructions": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"02-Carte\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
                 "value": "BuiltinCommonInstructions::CompareNumbers"
               },
               "parameters": [
-                "GlobalVariable(gbl_startTime)",
-                "!=",
-                "0"
+                "GlobalVariable(gbl_endTime)",
+                "=",
+                "10000"
               ],
               "subInstructions": []
             }
@@ -4220,7 +4312,7 @@
               },
               "parameters": [
                 "",
-                "\"02-Carte\"",
+                "\"5-MaraisSacyPerdu\"",
                 ""
               ],
               "subInstructions": []
@@ -39744,6 +39836,36 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"https://escapoise.dsden60.ac-amiens.fr/getEnigmes.php\"",
+                "",
+                "\"POST\"",
+                "",
+                "enigmes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"https://escapoise.dsden60.ac-amiens.fr/getEndTime.php\"",
+                "",
+                "\"POST\"",
+                "",
+                "endTime",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -39786,6 +39908,29 @@
               "parameters": [
                 "",
                 "\"plus10\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "JSONToGlobalVariableStructure"
+              },
+              "parameters": [
+                "VariableString(enigmes)",
+                "gbl_enigmes"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gbl_endTime",
+                "=",
+                "ToNumber(VariableString(endTime))"
               ],
               "subInstructions": []
             }
