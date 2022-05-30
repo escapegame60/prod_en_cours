@@ -4468,18 +4468,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4765138231277466,
+        "zoomFactor": 0.9765138231277462,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "folded": true,
-          "name": "newStartTime",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -6254,21 +6247,6 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SendAsyncRequest"
-              },
-              "parameters": [
-                "\"https://escapoise.dsden60.ac-amiens.fr/setStartTime.php\"",
-                "",
-                "\"POST\"",
-                "",
-                "newStartTime",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Cache"
               },
               "parameters": [
@@ -6439,12 +6417,10 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "Wait"
               },
               "parameters": [
-                "gbl_startTime",
-                "=",
-                "ToNumber(VariableString(newStartTime))"
+                "3"
               ],
               "subInstructions": []
             }
@@ -31637,6 +31613,21 @@
                 "\"chronofinperdu\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"https://escapoise.dsden60.ac-amiens.fr/setFailTime.php\"",
+                "",
+                "\"POST\"",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -31954,6 +31945,21 @@
               "parameters": [
                 "",
                 "\"chronosacycle\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"https://escapoise.dsden60.ac-amiens.fr/setEndTime.php\"",
+                "",
+                "\"POST\"",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             },
@@ -39535,6 +39541,17 @@
               },
               "parameters": [
                 "",
+                "\"plus10\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
                 "\"countDown\""
               ],
               "subInstructions": []
@@ -39559,7 +39576,7 @@
               "parameters": [
                 "gbl_diffTime",
                 "=",
-                "60-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
+                "7200-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
               ],
               "subInstructions": []
             },
@@ -39644,7 +39661,7 @@
               "parameters": [
                 "gbl_diffTime",
                 "=",
-                "60-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
+                "7200-(GlobalVariable(gbl_currentTime)-GlobalVariable(gbl_startTime))"
               ],
               "subInstructions": []
             },
@@ -39689,6 +39706,86 @@
                 "",
                 "\"5-MaraisSacyPerdu\"",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"plus10\"",
+                ">=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SendAsyncRequest"
+              },
+              "parameters": [
+                "\"https://escapoise.dsden60.ac-amiens.fr/setStartTime.php\"",
+                "",
+                "\"POST\"",
+                "",
+                "newStartTime",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"plus10\"",
+                ">=",
+                "4"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "gbl_startTime",
+                "=",
+                "ToNumber(VariableString(newStartTime))"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"plus10\""
               ],
               "subInstructions": []
             }
