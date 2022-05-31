@@ -2857,8 +2857,8 @@
         {
           "folded": true,
           "name": "endTime",
-          "type": "string",
-          "value": ""
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -4560,7 +4560,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9765138231277462,
+        "zoomFactor": 0.636513823127746,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -25251,7 +25251,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 111,
+          "height": 139,
           "layer": "",
           "locked": false,
           "name": "blocconsigne",
@@ -25466,7 +25466,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Qui suis-je ? Retrouve le nom de chaque personnage associé à la description. \nL’ordre des initiales va te donner un nombre romain. Indique dans le salon de discussion ce nombre en chiffres.",
+            "text": "Qui suis-je ? Retrouve le nom de chaque personnage associé à la description (clic sur l’image) et note l’initiale de son nom. L’ordre des initiales va te donner un nombre romain. \nIndique dans le salon de discussion ce nombre en chiffres.",
             "opacity": 255,
             "fontSize": 20,
             "visible": true,
@@ -39828,21 +39828,6 @@
                 "value": "SendAsyncRequest"
               },
               "parameters": [
-                "\"https://escapoise.dsden60.ac-amiens.fr/setStartTime.php\"",
-                "",
-                "\"POST\"",
-                "",
-                "newStartTime",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SendAsyncRequest"
-              },
-              "parameters": [
                 "\"https://escapoise.dsden60.ac-amiens.fr/getEnigmes.php\"",
                 "",
                 "\"POST\"",
@@ -39891,12 +39876,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "ModVarGlobal"
+                "value": "JSONToGlobalVariableStructure"
               },
               "parameters": [
-                "gbl_startTime",
-                "=",
-                "ToNumber(VariableString(newStartTime))"
+                "VariableString(enigmes)",
+                "gbl_enigmes"
               ],
               "subInstructions": []
             },
@@ -39914,23 +39898,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "JSONToGlobalVariableStructure"
-              },
-              "parameters": [
-                "VariableString(enigmes)",
-                "gbl_enigmes"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "ModVarGlobal"
               },
               "parameters": [
                 "gbl_endTime",
                 "=",
-                "ToNumber(VariableString(endTime))"
+                "Variable(endTime)"
               ],
               "subInstructions": []
             }
